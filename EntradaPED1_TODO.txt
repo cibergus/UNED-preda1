@@ -1,0 +1,124 @@
+#01_________________________________________ejemplo del ED
+
+3 4 6 7
+2
+10
+
+Conjunto inicial = [3, 4, 6, 7]
+Núm. elementos a sumar = 2
+Total q deben de sumar = 10
+Subconjuntos encontrados:
+4 6 
+3 7  
+
+#02_________________________________________Con numeros negativos
+
+-2 -1 0 1 2 3 4 5
+2
+3
+
+Conjunto inicial = [-2, -1, 0, 1, 2, 3, 4, 5]
+Núm. elementos a sumar = 2
+Total q deben de sumar = 3
+Subconjuntos encontrados:
+1 2 
+0 3 
+-1 4 
+-2 5 
+
+#03_________________________________________
+
+-2 -1 0 1 2 3 4 5
+3
+3
+
+Conjunto inicial = [-2, -1, 0, 1, 2, 3, 4, 5]
+Núm. elementos a sumar = 3
+Total q deben de sumar = 3
+Subconjuntos encontrados:
+0 1 2 
+-1 1 3 
+-1 0 4 
+-2 2 3 
+-2 1 4 
+-2 0 5 
+
+#04_________________________________________
+
+5 -2 -1 0 1 2 3 4
+3
+5
+
+Conjunto inicial = [5, -2, -1, 0, 1, 2, 3, 4]
+Núm. elementos a sumar = 3
+Total q deben de sumar = 5
+Subconjuntos encontrados:
+0 2 3 
+0 1 4 
+-1 2 4 
+-2 3 4 
+5 -1 1 
+5 -2 2  
+
+#5_________________________________________
+
+-2 -1 0 1 2 3 4 5 6 7 8 9
+3
+10
+
+Conjunto inicial = [-2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Núm. elementos a sumar = 3
+Total q deben de sumar = 10
+Subconjuntos encontrados:
+2 3 5 
+1 4 5 
+1 3 6 
+1 2 7 
+0 4 6 
+0 3 7 
+0 2 8 
+0 1 9 
+-1 5 6 
+-1 4 7 
+-1 3 8 
+-1 2 9 
+-2 5 7 
+-2 4 8 
+-2 3 9  
+
+
+#6_________________________________________elementos desordenados
+
+9 1 2 -1 3 4 5 6 -2 7 0 8
+3
+10
+
+Conjunto inicial = [9, 1, 2, -1, 3, 4, 5, 6, -2, 7, 0, 8]
+Núm. elementos a sumar = 3
+Total q deben de sumar = 10
+Subconjuntos encontrados:
+5 -2 7 0 
+4 -2 8 
+4 6 0 
+3 7 0 
+-1 5 6 -2 7 0 
+-1 4 7 0 
+-1 3 8 
+2 0 8 
+2 3 5 -2 7 0 
+1 4 5 -2 7 0 
+1 3 6 -2 7 0 
+1 2 7 0 
+9 1 0 
+
+#10_________________________________________NO HAY SOLUCION
+
+3 4 6 7
+2
+15
+
+#11_________________________________________con elementos repetidos
+
+3 4 6 4 7
+2
+10

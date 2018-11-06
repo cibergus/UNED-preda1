@@ -1,0 +1,6 @@
+Conjunto inicial = [3, 4, 6, 7]
+Número elementos a sumar = 10
+Total que deben de sumar = 2
+Subconjuntos encontrados:
+NO HAY SOLUCIÓN
+Fin del programa.

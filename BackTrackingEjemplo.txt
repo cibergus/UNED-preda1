@@ -1,0 +1,22 @@
+tipo VectorA = matriz [1..N] de entero
+tipo VectorB = matriz [1..N] de booleano
+
+fun SCS (datos: VectorA, k: entero, v: VectorB, sumandos: entero, suma: entero)
+	si sumandos = m entonces
+		si suma = C entonces
+			PresentarSolucion(v)
+		fsi
+	sino
+		si k <= n entonces	
+			v[k] <- Falso
+			SCS (datos, k+1, v, sumandos, suma)
+			sumaDatos = suma + datos[k]
+			si sumaDatos <= C entonces
+				v[k] <- Cierto
+				suma <- sumaDatos
+				sumandos <- sumandos + 1
+				SCS (datos, k+1, v, sumandos, suma)
+			fsi
+		fsi
+	fsi
+ffun

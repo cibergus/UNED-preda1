@@ -1,0 +1,9 @@
+-Traza activada-
+17:01:55 Mensaje - Los datos iniciales son: 
+Conjunto inicial = [3, 4, 6, 7]
+Número elementos a sumar = 2
+Total que deben de sumar = 10
+Subconjuntos encontrados:
+4 6 
+3 7 
+Fin del programa.
