@@ -2,17 +2,7 @@
 <class-diagram version="1.2.2" icons="true" automaticImage="JPEG" always-add-relationships="false" 
   generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
   router="FAN">  
-  <class id="1" language="java" name="preda_scs.InicialGestorParametros" project="PrEDA-18-19-PED1-SubconjuntosSumaDada" 
-    file="/PrEDA-18-19-PED1-SubconjuntosSumaDada/src/preda_scs/InicialGestorParametros.java" binary="false" 
-    corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="168" y="222"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="2" language="java" name="preda_scs.AlgoritmoVueltaAtras" project="PrEDA-18-19-PED1-SubconjuntosSumaDada" 
+  <class id="1" language="java" name="preda_scs.AlgoritmoVueltaAtras" project="PrEDA-18-19-PED1-SubconjuntosSumaDada" 
     file="/PrEDA-18-19-PED1-SubconjuntosSumaDada/src/preda_scs/AlgoritmoVueltaAtras.java" binary="false" 
     corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="252" y="625"/>    
@@ -22,7 +12,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="preda_scs.ManejadorDeFichero" project="PrEDA-18-19-PED1-SubconjuntosSumaDada" 
+  <class id="2" language="java" name="preda_scs.ManejadorDeFichero" project="PrEDA-18-19-PED1-SubconjuntosSumaDada" 
     file="/PrEDA-18-19-PED1-SubconjuntosSumaDada/src/preda_scs/ManejadorDeFichero.java" binary="false" 
     corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="634" y="190"/>    
@@ -32,49 +22,25 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="preda_scs.GestorDeTexto" project="PrEDA-18-19-PED1-SubconjuntosSumaDada" 
+  <class id="3" language="java" name="preda_scs.GestorDeTexto" project="PrEDA-18-19-PED1-SubconjuntosSumaDada" 
     file="/PrEDA-18-19-PED1-SubconjuntosSumaDada/src/preda_scs/GestorDeTexto.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="665" y="511"/>    
+    <position height="-1" width="-1" x="699" y="642"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="5">    
+  <association id="4">    
     <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="6" name="vueltaAtras">        
-        <position height="0" width="0" x="-339" y="64"/>      
+      <attribute id="5" name="manejoFicheros">        
+        <position height="0" width="0" x="-3" y="3"/>      
       </attribute>      
-      <multiplicity id="7" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-339" y="64"/>      
+      <multiplicity id="6" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-3" y="3"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="2" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="8">    
-    <end type="SOURCE" refId="1" navigable="false">      
-      <attribute id="9" name="manejoFicheros">        
-        <position height="0" width="0" x="-3" y="3"/>      
-      </attribute>      
-      <multiplicity id="10" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-3" y="3"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <association id="11">    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="12" name="manejoFicheros">        
-        <position height="0" width="0" x="-3" y="3"/>      
-      </attribute>      
-      <multiplicity id="13" minimum="0" maximum="1">        
-        <position height="0" width="0" x="-3" y="3"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="3" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 

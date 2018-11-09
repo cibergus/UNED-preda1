@@ -84,7 +84,7 @@ public class ManejadorDeFichero {
 	}
 
 	public static void pedirPorConsolaVectorA() {
-		System.out.println("Dame los elementos a sumar\\n y pulsa ENTER al acabar:");
+		System.out.println("Dame los elementos a sumar y pulsa ENTER al acabar:");
 		lineaLeida = scanner.nextLine();	
 		crearVectorA(lineaLeida);
 	}

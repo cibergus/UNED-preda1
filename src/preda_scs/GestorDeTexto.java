@@ -32,7 +32,7 @@ public class GestorDeTexto {
 
 	public static void imprimeMensajeAyuda() {
 		System.out.println(
-				"Programa que sirve para calcular los suconjuntos de una suma dada.\n\n"
+				"Programa que sirve para calcular los suconjuntos de una suma dada.\n"
 						+ "SINTAXIS: \n"
 						+ "suma [-t][-h][fichero_entrada][fichero_salida]\n"
 						+ "  -t               Traza la selección de subconjuntos\n"
