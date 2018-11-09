@@ -42,8 +42,8 @@ public class GestorDeTexto {
 	}
 
 	public static void enviarTextoA_Pantalla_O_Fichero(String texto) {
-		if (InicialGestorParametros.hayFicheroSalida) {
-			ManejadorDeFichero.EscribeFichero(InicialGestorParametros.ficheroSalida, texto);
+		if (InicialGestorParametrosDE.hayFicheroSalida) {
+			ManejadorDeFichero.EscribeFichero(InicialGestorParametrosDE.ficheroSalida, texto);
 		}
 		else {
 			System.out.println(texto);

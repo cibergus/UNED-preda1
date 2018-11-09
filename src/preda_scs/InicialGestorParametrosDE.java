@@ -8,7 +8,7 @@
 
 package preda_scs;
 
-public class InicialGestorParametros {
+public class InicialGestorParametrosDE {
 	static boolean esTrazaActiva;
 	static boolean esAyudaActiva;
 	static boolean hayFicheroSalida     = false;
@@ -20,6 +20,7 @@ public class InicialGestorParametros {
 	static int [] vectorA;
 	static int mNumeroElementos = 0;
 	static int cSumaElementos = 0;
+	
 	static ManejadorDeFichero manejoFicheros = new ManejadorDeFichero();
 	static AlgoritmoVueltaAtras vueltaAtras = new AlgoritmoVueltaAtras();
 

@@ -64,7 +64,7 @@ public class AlgoritmoVueltaAtras {
 	}
 
 	public static void siTrazaActivaImprime(String textoAImprimir) {
-		if (InicialGestorParametros.esTrazaActiva)
+		if (InicialGestorParametrosDE.esTrazaActiva)
 			ManejadorDeFichero.Traza(textoAImprimir);
 	}
 
